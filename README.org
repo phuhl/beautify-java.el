@@ -1,0 +1,11 @@
+#+TITLE:	beautify-java.el
+#+AUTHOR:	Philipp Uhl
+
+A simple lisp beautifier for generated java-files, written for emacs.
+
+Just add this to your .emacs and put beautify-java.el in the appropiate location.
+: ;; Beautifier für Java
+: (load-file "~/.emacs.d/beautify-java.el")
+
+To beautify your code, just do =M-x beautify-java= within the buffer you want to beautify.
+
